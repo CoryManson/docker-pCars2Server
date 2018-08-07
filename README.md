@@ -22,40 +22,14 @@ $ docker run -it wilkesystems/steamcmd
 
 ----------------
 
-# Required Ports for Steam
-Which ports do I need to open for Steam?
+# Required Ports for Project Cars 2 Dedicated Server
+Which incoming ports do I need to open for pCars2?                                                 |
 
-| To log into Steam and download content |
-|----------------------------------------|
-| HTTP (TCP port 80) and HTTPS (443)     |
-| UDP 27015 through 27030                |
-| TCP 27015 through 27030                |
-
-| Steam Client                                                  |
-|---------------------------------------------------------------|
-| UDP 27000 to 27015 inclusive (Game client traffic)            |
-| UDP 27015 to 27030 inclusive (Typically Matchmaking and HLTV) |
-| UDP 27031 and 27036 (incoming, for In-Home Streaming)         |
-| TCP 27036 and 27037 (incoming, for In-Home Streaming)         |
-| UDP 4380                                                      |
-
-| Dedicated or Listen Servers |
+| Default pCars2 Ports |
 |-----------------------------|
-|TCP 27015 (SRCDS Rcon port)  |
-
-| Streamworks P2P Networking and Steam Voice Chat |
-|-------------------------------------------------|
-| UDP 3478 (Outbound)                             |
-| UDP 4379 (Outbound)                             |
-| UDP 4380 (Outbound)                             |
-
-----------------
-
-# Auto Builds
-
-New images are automatically built by each new library push.
-
-[![Docker build](https://dockeri.co/image/wilkesystems/steamcmd)](https://hub.docker.com/r/wilkesystems/steamcmd/)
+|UDP 8766 (Steam Port)  |
+|UDP 27015 (Host Port)  |
+|UDP 27016 (Query Port)  |
 
 ----------------
 
