@@ -5,7 +5,7 @@ The Steam Console Client or SteamCMD is a command-line version of the Steam clie
 
 ----------------
 
-# Get Image
+<!-- # Get Image
 [Docker hub](https://hub.docker.com/r/wilkesystems/steamcmd)
 
 ```bash
@@ -18,7 +18,7 @@ docker pull wilkesystems/steamcmd
 
 ```bash
 $ docker run -it wilkesystems/steamcmd
-```
+``` -->
 
 ----------------
 
