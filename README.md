@@ -1,28 +1,3 @@
-# Supported tags and respective `Dockerfile` links
-
--	[`artful` (*ubuntu/artful/Dockerfile*)](https://github.com/wilkesystems/docker-steamcmd/blob/master/ubuntu/artful/Dockerfile)
--	[`buster` (*debian/buster/Dockerfile*)](https://github.com/wilkesystems/docker-steamcmd/blob/master/debian/buster/Dockerfile)
--	[`buster-slim` (*debian/buster-slim/Dockerfile*)](https://github.com/wilkesystems/docker-steamcmd/blob/master/debian/buster-slim/Dockerfile)
--	[`centos6` (*centos/6/Dockerfile*)](https://github.com/wilkesystems/docker-steamcmd/blob/master/centos/6/Dockerfile)
--	[`centos7`, `centos` (*centos/7/Dockerfile*)](https://github.com/wilkesystems/docker-steamcmd/blob/master/centos/7/Dockerfile)
--	[`fedora24` (*fedora/24/Dockerfile*)](https://github.com/wilkesystems/docker-steamcmd/blob/master/fedora/24/Dockerfile)
--	[`fedora25` (*fedora/25/Dockerfile*)](https://github.com/wilkesystems/docker-steamcmd/blob/master/fedora/25/Dockerfile)
--	[`fedora26`, `fedora` (*fedora/26/Dockerfile*)](https://github.com/wilkesystems/docker-steamcmd/blob/master/fedora/26/Dockerfile)
--	[`jessie` (*debian/jessie/Dockerfile*)](https://github.com/wilkesystems/docker-steamcmd/blob/master/debian/jessie/Dockerfile)
--	[`jessie-slim` (*debian/jessie/Dockerfile*)](https://github.com/wilkesystems/docker-steamcmd/blob/master/debian/jessie-slim/Dockerfile)
--	[`opensuse42.1` (*opensuse/42.1/Dockerfile*)](https://github.com/wilkesystems/docker-steamcmd/blob/master/opensuse/42.1/Dockerfile)
--	[`opensuse42.2` (*opensuse/42.2/Dockerfile*)](https://github.com/wilkesystems/docker-steamcmd/blob/master/opensuse/42.2/Dockerfile)
--	[`opensuse42.3` `opensuse` (*opensuse/42.3/Dockerfile*)](https://github.com/wilkesystems/docker-steamcmd/blob/master/opensuse/42.3/Dockerfile)
--	[`stretch`, `debian` (*debian/stretch/Dockerfile*)](https://github.com/wilkesystems/docker-steamcmd/blob/master/debian/stretch/Dockerfile)
--	[`stretch-slim`, `mainline`, `latest` (*debian/stretch-slim/Dockerfile*)](https://github.com/wilkesystems/docker-steamcmd/blob/master/debian/stretch-slim/Dockerfile)
--	[`trusty` (*ubuntu/trusty/Dockerfile*)](https://github.com/wilkesystems/docker-steamcmd/blob/master/ubuntu/trusty/Dockerfile)
--	[`wheezy` (*debian/wheezy/Dockerfile*)](https://github.com/wilkesystems/docker-steamcmd/blob/master/debian/wheezy/Dockerfile)
--	[`wheezy-slim` (*debian/wheezy-slim/Dockerfile*)](https://github.com/wilkesystems/docker-steamcmd/blob/master/debian/wheezy-slim/Dockerfile)
--	[`xenial`, `ubuntu` (*ubuntu/xenial/Dockerfile*)](https://github.com/wilkesystems/docker-steamcmd/blob/master/ubuntu/xenial/Dockerfile)
--	[`zesty` (*ubuntu/zesty/Dockerfile*)](https://github.com/wilkesystems/docker-steamcmd/blob/master/ubuntu/zesty/Dockerfile)
-
-----------------
-
 # SteamCMD
 ![SteamCMD](https://github.com/wilkesystems/docker-steamcmd/raw/master/docs/logo.png)
 

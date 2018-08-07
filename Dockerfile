@@ -1,6 +1,6 @@
 FROM ubuntu:artful
 
-MAINTAINER wilkesystems <maintainer@wilke.systems>
+MAINTAINER Cozza38 <5052021+Cozza38@users.noreply.github.com>
 
 ENV DEBIAN_FRONTEND=noninteractive
 
