@@ -23,7 +23,7 @@ $ docker run -it wilkesystems/steamcmd
 ----------------
 
 # Required Ports for Project Cars 2 Dedicated Server
-Which incoming ports do I need to open for pCars2?                                                 |
+Which incoming ports do I need to open for pCars2?
 
 | Default pCars2 Ports |
 |-----------------------------|
