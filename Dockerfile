@@ -12,4 +12,7 @@ steamcmd +quit; rm -rf /root/.steam/logs/* /var/lib/apt/lists/* /tmp/*
 
 RUN ["steamcmd +force_install_dir /dedicatedserver/pcars2 +app_update 413770 +quit"]
 
+EXPOSE 8766 8766/udp 27015 27015/udp 27016 27016/udp
+VOLUME /dedicatedserver
+
 CMD ["/dedicatedserver/pcars2/DedicatedServerCmd​"]
