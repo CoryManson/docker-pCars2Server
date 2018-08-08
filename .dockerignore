@@ -1,1 +1,7 @@
+.git
+.gitignore
+.github
+.gitattributes
+READMETEMPLATE.md
+README.md
 !steamcmd.tar.xz
