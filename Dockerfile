@@ -18,4 +18,5 @@ chmod +x /pcars2/DedicatedServerCmd.elf
 EXPOSE 8766 8766/udp 27015 27015/udp 27016 27016/udp
 VOLUME /pcars2
 
-CMD ["/pcars2/DedicatedServerCmd.elf​"]
+# CMD ["/pcars2/DedicatedServerCmd.elf​"]
+CMD ["steamcmd"]
