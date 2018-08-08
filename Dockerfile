@@ -1,6 +1,6 @@
 FROM ubuntu:artful
 
-MAINTAINER Cozza38 <5052021+Cozza38@users.noreply.github.com>
+LABEL maintainer="Cozza38 <5052021+Cozza38@users.noreply.github.com>"
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -10,4 +10,6 @@ RUN dpkg --add-architecture i386; apt-get update; \
 apt-get install -y binutils ca-certificates libgcc1:i386 libstdc++6:i386 libtbb2:i386 libterm-ui-perl locales locales-all net-tools; \
 steamcmd +quit; rm -rf /root/.steam/logs/* /var/lib/apt/lists/* /tmp/*
 
-CMD ["steamcmd"]
+RUN ["steamcmd +force_install_dir /dedicatedserver/pcars2 +app_update 413770 +quit"]
+
+CMD ["/dedicatedserver/pcars2/DedicatedServerCmd​"]
