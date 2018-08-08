@@ -1,7 +1,6 @@
-# SteamCMD
-![SteamCMD](https://github.com/wilkesystems/docker-steamcmd/raw/master/docs/logo.png)
+# Project Cars 2 Dedicated Server
 
-The Steam Console Client or SteamCMD is a command-line version of the Steam client. Its primary use is to install and update various dedicated servers available on Steam using a command-line interface. It works with games that use the SteamPipe content system. All games have been migrated from the deprecated HLDSUpdateTool to SteamCMD.
+Project Cars 2 Dedicated Server Container
 
 ----------------
 
@@ -17,13 +16,26 @@ cozza38/docker-pcars2server
 # How to use this image
 
 ```bash
-$ docker run -it cozza38/docker-pcars2server
+$ docker create \
+    --name pcars2server \
+    -p 8766:8766/udp \  
+    -p 27015:27015/udp \  
+    -p 27016:27016/udp \
+    -v </path/to/pcars2>:/pcars2 \
+    cozza38/docker-pcars2server
 ```
+## Running for the first time
+
+You will need to login to SteamCMD before the server will show in the browser. Perform the following in the container:
+```
+$ steamcmd +login <username> <password>
+```
+You may be prompted for your steamguard code.
 
 ----------------
 
 # Required Ports for Project Cars 2 Dedicated Server
-Which incoming ports do I need to open for pCars2?
+These ports can be changed in server.cfg
 
 | Default pCars2 Ports |
 |-----------------------------|
