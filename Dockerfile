@@ -18,6 +18,3 @@ VOLUME /pcars2
 WORKDIR "/pcars2"
 
 CMD chmod +x /pcars2/DedicatedServerCmd.elf && /pcars2/DedicatedServerCmd.elf
-
-# CMD /pcars2/DedicatedServerCmd.elf
-# CMD ["steamcmd"]
