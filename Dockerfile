@@ -13,10 +13,10 @@ apt-get install -y binutils ca-certificates libgcc1:i386 libstdc++6:i386 libtbb2
 steamcmd +quit; rm -rf /root/.steam/logs/* /var/lib/apt/lists/* /tmp/*; \
 chmod +x /pcars2/DedicatedServerCmd.elf
 
-# RUN chmod +x /pcars2/DedicatedServerCmd.elf
-
 EXPOSE 8766 8766/udp 27015 27015/udp 27016 27016/udp
 VOLUME /pcars2
 
-CMD /pcars2/DedicatedServerCmd.elf​
+RUN chmod +x /pcars2/DedicatedServerCmd.elf && /pcars2/DedicatedServerCmd.elf
+
+# CMD /pcars2/DedicatedServerCmd.elf
 # CMD ["steamcmd"]
