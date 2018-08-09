@@ -10,13 +10,12 @@ COPY root/ /
 
 RUN dpkg --add-architecture i386; apt-get update; \
 apt-get install -y binutils ca-certificates libgcc1:i386 libstdc++6:i386 libtbb2:i386 libterm-ui-perl locales locales-all net-tools; \
-steamcmd +quit; rm -rf /root/.steam/logs/* /var/lib/apt/lists/* /tmp/*; \
-chmod +x /pcars2/DedicatedServerCmd.elf
+steamcmd +quit; rm -rf /root/.steam/logs/* /var/lib/apt/lists/* /tmp/*;
 
 EXPOSE 8766 8766/udp 27015 27015/udp 27016 27016/udp
 VOLUME /pcars2
 
-RUN chmod +x /pcars2/DedicatedServerCmd.elf && /pcars2/DedicatedServerCmd.elf
+CMD chmod +x /pcars2/DedicatedServerCmd.elf && /pcars2/DedicatedServerCmd.elf
 
 # CMD /pcars2/DedicatedServerCmd.elf
 # CMD ["steamcmd"]
