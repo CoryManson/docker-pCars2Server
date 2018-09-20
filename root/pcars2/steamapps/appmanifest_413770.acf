@@ -5,13 +5,13 @@
 	"name"		"Project CARS 2 - Dedicated Server"
 	"StateFlags"		"4"
 	"installdir"		"Project CARS 2 - Dedicated Server"
-	"LastUpdated"		"1533649113"
+	"LastUpdated"		"1537443393"
 	"UpdateResult"		"0"
-	"SizeOnDisk"		"27426891"
-	"buildid"		"2786526"
+	"SizeOnDisk"		"27450527"
+	"buildid"		"3101186"
 	"LastOwner"		"76561198013874523"
-	"BytesToDownload"		"8118112"
-	"BytesDownloaded"		"8118112"
+	"BytesToDownload"		"8123792"
+	"BytesDownloaded"		"8123792"
 	"AutoUpdateBehavior"		"0"
 	"AllowOtherDownloadsWhileRunning"		"0"
 	"ScheduledAutoUpdate"		"0"
@@ -22,11 +22,11 @@
 	{
 		"413772"
 		{
-			"manifest"		"2131378534721570174"
+			"manifest"		"2769538336365817030"
 		}
 	}
 	"MountedDepots"
 	{
-		"413772"		"2131378534721570174"
+		"413772"		"2769538336365817030"
 	}
 }

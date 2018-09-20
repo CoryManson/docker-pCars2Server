@@ -265,6 +265,11 @@ function LibRotate:_merge_attributes( attributes, setup )
 				end
 				attributes[ k ] = normalize_session_attribute( k, v )
 			end
+		elseif k == "MultiClassSlot1" or k == "MultiClassSlot2" or k == "MultiClassSlot3" or k == "MultiClassSlot4" then
+			local class = id_to_vehicle_class[ normalize_vehicle_class( v ) ]
+			if class then
+				attributes[ k ] = class.id
+			end
 		else
 			attributes[ k ] = normalize_session_attribute( k, v )
 		end
